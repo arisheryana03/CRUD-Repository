@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context=".view.activity.AddActivity">
+
+    <EditText
+        android:id="@+id/et_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rp Masuk"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rp Keluar"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_ketmasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Keterangan Masuk"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_ketkeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Keterangan Keluar"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dd-MM-yyyy"
+        android:inputType="text"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Save"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Edit"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Delete"
+        android:textAllCaps="false" />
+
+</LinearLayout>
